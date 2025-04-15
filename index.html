@@ -59,8 +59,8 @@
                     <div class="max-w-2xl">
                         <p class="pb-6 text-2xl font-semibold text-[#6c6964]">Bringing Families Together ❤️‍🔥</p>
                         <h1 class="text-6xl font-bold">Your Path to Adoption Starts Here</h1>
-                        <p class="py-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
-                        <button class="btn rounded-lg bg-[#0E7A81] text-white">View More</button>
+                        <p class="py-6">Discover the joy of adopting a pet and giving them a loving home. Explore our platform to find your perfect companion.</p>
+                        <button onclick="document.getElementById('pet_aduption_section').scrollIntoView({ behavior: 'smooth' });"  class="btn rounded-lg bg-[#0E7A81] text-white">View More</button>
                     </div>
                 </div>
             </div>
@@ -69,34 +69,16 @@
                 <img src="./assets/pet.webp" alt="" class="mx-auto object-cover object-center" />
             </div>
         </section>
-        <section class="py-10 px-6">
+        <section id="pet_aduption_section" class="py-10 px-6">
             <div class=" max-w-md mx-auto text-center">
                 <h1 class="text-4xl font-black">Adopt  Your  Best Friend</h1>
-                <p class="py-6 text-[#6c6969]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                <p class="py-6 text-[#6c6969]">Find your perfect pet and give them a forever home. Browse through our categories to meet your new best friend.</p>
             </div>
 
             <div>
                 <!-- Tabs  -->
-                <div class="flex flex-wrap justify-center items-center gap-4 px-4 max-w-[1080px] m-auto">
-                    <button id="btnDog" class="btn w-36 p-6 rounded-2xl bg-white hover:bg-[#e7e3e4] font-bold text-lg hover">
-                        <img src="./assets/dog.png" alt="" class="w-8" />
-                        Dogs
-                    </button>
+                <div id="catagoryShowcase" class="flex flex-wrap justify-center items-center gap-4 px-4 max-w-[1080px] m-auto">
 
-                    <button id="btnCat" class="btn w-36 p-6 rounded-2xl bg-white hover:bg-[#e7e3e4] font-bold text-lg hover">
-                        <img src="./assets/cat.png" alt="" class="w-8" />
-                        Cats
-                    </button>
-
-                    <button id="btnRabbit" class="btn w-36 p-6 rounded-2xl bg-white hover:bg-[#e7e3e4] font-bold text-lg hover">
-                        <img src="./assets/rabbit.png" alt="" class="w-8" />
-                        Rabbits
-                    </button>
-                    
-                    <button id="btnBird" class="btn w-36 p-6 rounded-2xl bg-white hover:bg-[#e7e3e4] font-bold text-lg hover">
-                        <img src="./assets/bird.png" alt="" class="w-8" />
-                        Birds
-                    </button>
                 </div>
 
                 <!-- content container  -->
@@ -111,6 +93,7 @@
                     <div class="flex flex-col-reverse md:flex-row justify-between items-start gap-4 m-auto">
                         <div id="petShowcase" class="">
                         </div>
+
                         <div class="border border-[#13131340] rounded-xl hidden md:block md:w-[156px] lg:w-[298px] min-h-[298] p-4 md:flex flex-wrap gap-4">
                             <img src="./assets/cat.png" alt="" class="w-[124px] ">
                             <img src="./assets/cat.png" alt="" class="w-[124px] ">
